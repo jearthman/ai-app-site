@@ -28,9 +28,48 @@ export default function Home() {
               Learn More
             </Button>
           </div>
-          <div className="flex gap-4">
-            <div>
-              <Image alt="AI helping wiht productivity"></Image>
+          <div className="mt-16 flex gap-16">
+            <div className="w-[300px]">
+              <Image
+                alt="AI helping with productivity"
+                src="/images/simplify.png"
+                width={300}
+                height={300}
+                className="mx-auto rounded-lg  shadow-lg"
+              ></Image>
+              <h2 className="mt-4 text-xl font-bold">Streamline Your Work.</h2>
+              <p className="mt-4">
+                Navigate the complexities of modern workflows with our AI-driven
+                solutions.
+              </p>
+            </div>
+            <div className="w-[300px]">
+              <Image
+                alt="AI helping with productivity"
+                src="/images/reduce_costs.png"
+                width={300}
+                height={300}
+                className="mx-auto rounded-lg shadow-lg"
+              ></Image>
+              <h2 className="mt-4 text-xl font-bold">Cut Operational Costs.</h2>
+              <p className="mt-4">
+                Reduce your overheads significantly by integrating our AI
+                solutions into your business processes.
+              </p>
+            </div>
+            <div className="w-[300px]">
+              <Image
+                alt="AI helping with productivity"
+                src="/images/enhance.png"
+                width={300}
+                height={300}
+                className="mx-auto rounded-lg shadow-lg"
+              ></Image>
+              <h2 className="mt-4 text-xl font-bold">Enhance Productivity.</h2>
+              <p className="mt-4">
+                Capitalize on our AI's ability to analyze vast amounts of data
+                rapidly and provide actionable insights.
+              </p>
             </div>
           </div>
         </div>
